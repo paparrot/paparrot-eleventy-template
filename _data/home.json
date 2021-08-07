@@ -1,6 +1,6 @@
 {
-  "title": "Hello, my name is Fernfolio",
+  "title": "Привет, меня зовут Клим",
   "image": "/static/img/fern-in-hand.jpeg",
-  "subtitle": "The super simple portfolio template built with Eleventy and Netlify CMS",
+  "subtitle": "Я контент-менеджер, увлекаюсь разработкой, изучаю Java",
   "image_alt": "Fern in hand"
 }
