@@ -1,19 +1,16 @@
 ---
 section: contact
 layout: layouts/contact.njk
-title: Get in touch
+title: Контакты
+subtitle: ""
+metaDescription: Пригласить на работу, предложить интересный проект, помочь с
+  редактированием контента или просто пообщаться со мной можно заполнив
+  следующую форму.
 date: 2018-01-01
 permalink: /contact/index.html
-metaDescription: This is a sample meta description. If one is not present in
-  your page/post's front matter, the default metadata.desciption will be used
-  instead.
-subtitle: Contact Subtitle
 eleventyNavigation:
-  key: Contact
+  key: Контакты
   order: 5
 ---
-
-The contact form on this page uses [Netlify Forms](https://www.netlify.com/docs/form-handling/) to process submissions,
-and saves them in the connected Netlify account where notifications can
-optionally be configured. Each submission is passed through a spam filter and
-if flagged, will display a CAPTCHA challenge to the user.
+Если у Вас есть интересные предложения или замечания, пожалуйста, поделитесь со мной, заполнив форму ниже.
+Вы также можете написать мне в [телеграме](https://t.me/paparrot), [твиттере](https://twitter.com/paparrot1), или отправить пулл-реквест в репозиторий на [гитхабе](https://github.com/paparrot/portfolio).
