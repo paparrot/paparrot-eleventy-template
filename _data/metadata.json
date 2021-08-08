@@ -1,5 +1,5 @@
 {
-  "title": "Fernfolio",
-  "description": "A template for building a simple porfolio website with the Eleventy static site generator, Netlify CMS, and with deployment to Netlify.",
-  "url": "https://fernfolio.netlify.app"
+  "title": "paparrot",
+  "description": "Привет, я Клим Плюснин, контент-менеджер и веб-разработчик. Это мой персональный сайт. Здесь можно почитать мой блог, посмотреть мои портфолио и резюме и связаться со мной.",
+  "url": "https://paparrot.netlify.app"
 }
