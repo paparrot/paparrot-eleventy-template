@@ -39,7 +39,11 @@ module.exports = function(eleventyConfig) {
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).setLocale('ru').toFormat("d MMMM yyyy");
+    return new Date(dateObj).toLocaleDateString('ru', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    }).slice(0, -3);
   });
 
   // Date formatting (machine readable)
