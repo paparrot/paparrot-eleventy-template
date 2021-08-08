@@ -1,10 +1,7 @@
 [build]
   publish = "_site"
   command = "eleventy"
-  
-[context.production.environment]
-  LC_ALL="ru_RU.utf8"
-
+ 
 # REDIRECT and HEADERS examples
 
 # Redirect rule example
