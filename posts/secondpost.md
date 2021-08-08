@@ -4,7 +4,7 @@ summary: Bring to the table win-win survival strategies to ensure proactive domi
 date: 2020-01-01
 author: John Appleseed
 tags:
-  - sport
+  - спорт
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
