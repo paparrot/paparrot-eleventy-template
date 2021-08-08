@@ -1,6 +1,9 @@
 [build]
   publish = "_site"
   command = "eleventy"
+  
+[context.production.environment]
+  LC_ALL = "ru_RU"
 
 # REDIRECT and HEADERS examples
 
