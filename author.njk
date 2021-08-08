@@ -1,5 +1,5 @@
 ---
-title: Author archive
+title: Все записи автора
 layout: layouts/base.njk
 pagination:
   data: collections.authors
@@ -8,8 +8,8 @@ pagination:
 permalink: "authors/{{ author | slug }}/"
 renderData:
   author: "{{ author }}"
-  title: "Posts by {{ author }}"
-  metaDescription: "An archive of all posts by the author: {{ author }}."
+  title: "Все посты {{ author }}"
+  metaDescription: "Все посты автора: {{ author }}."
 ---
 <div class="page-container">
 	<h1>{{ renderData.title | safe }}</h1>
@@ -49,7 +49,7 @@ renderData:
 			</article>
 		{% endfor %}
 		<nav>
-			<a href="{{ '/authors/' | url }}">← Authors index</a>
+			<a href="{{ '/authors/' | url }}">← Все авторы</a>
 		</nav>
 	</section>
 </div>
