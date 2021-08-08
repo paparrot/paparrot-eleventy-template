@@ -1,15 +1,15 @@
 :root {
   /* Brand Colors */
-  --color-primary: #222222;
-  --color-secondary: #2f5bc2;
+  --color-primary: #1160ef;
+  --color-secondary: #5e35b1;
 
   /* Background Colors */
-  --color-bg: #ffffff;
-  --color-bg-secondary: #f7f7f7;
-  --color-bg-accent: #c79191;
+  --color-bg: #fafafa;
+  --color-bg-secondary: #c7c7c7;
+  --color-bg-accent: #efefef;
 
   /* Text and Border Colors */
-  --color-text: #222222;
+  --color-text: #000a12;
   --color-text-alt: #ffffff;
   --color-border: rgba(0, 0, 0, 0.06);
 
