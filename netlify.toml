@@ -3,7 +3,7 @@
   command = "eleventy"
   
 [context.production.environment]
-  LC_ALL = "ru_RU"
+  LC_ALL=ru_RU.UTF-8
 
 # REDIRECT and HEADERS examples
 
