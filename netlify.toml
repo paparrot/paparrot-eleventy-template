@@ -1,4 +1,5 @@
 [build]
+  locale -a
   publish = "_site"
   command = "eleventy"
 
