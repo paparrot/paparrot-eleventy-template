@@ -6,8 +6,8 @@ webhook_url:
 sections:
 - type: directory
   path: posts
-  label: posts
-  create: documents
+  label: Posts
+  create: all
   match: "**/*"
   new_doc_ext: ".md"
   templates:
