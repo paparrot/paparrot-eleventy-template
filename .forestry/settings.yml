@@ -5,8 +5,8 @@ admin_path: "/papa"
 webhook_url: 
 sections:
 - type: document
-  path: "./index.njk"
-  label: Home
+  path: "./404.md"
+  label: '404'
 - type: directory
   path: pages
   label: Pages
@@ -20,7 +20,7 @@ sections:
   label: Projects
   create: all
   match: "**/*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - project
 - type: directory
@@ -31,8 +31,8 @@ sections:
   new_doc_ext: md
   templates:
   - blog-post
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: "./static/img"
+public_path: "./static/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
