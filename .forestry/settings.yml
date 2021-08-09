@@ -4,12 +4,26 @@ auto_deploy: false
 admin_path: "/papa"
 webhook_url: 
 sections:
+- type: document
+  path: "./index.html"
+  label: Home
+  match: "**/*"
+- type: directory
+  path: pages
+  label: Pages
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - page
 - type: directory
   path: projects
   label: Projects
   create: all
   match: "**/*"
   new_doc_ext: md
+  templates:
+  - project
 - type: directory
   path: posts
   label: Posts
@@ -18,9 +32,6 @@ sections:
   new_doc_ext: md
   templates:
   - blog-post
-- type: document
-  path: pages/about.md
-  label: About
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
