@@ -5,30 +5,29 @@ admin_path: "/papa"
 webhook_url: 
 sections:
 - type: document
-  path: "./index.html"
+  path: "./index.njk"
   label: Home
-  match: "**/*"
 - type: directory
   path: pages
   label: Pages
   create: all
-  match: "**/*"
-  new_doc_ext: ".md"
+  match: "**/*.md"
+  new_doc_ext: md
   templates:
   - page
 - type: directory
   path: projects
   label: Projects
   create: all
-  match: "**/*"
-  new_doc_ext: md
+  match: "**/*.md"
+  new_doc_ext: ".md"
   templates:
   - project
 - type: directory
   path: posts
   label: Posts
   create: all
-  match: "**/*"
+  match: "**/*.md"
   new_doc_ext: md
   templates:
   - blog-post
