@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: "/papa"
 webhook_url: 
 sections:
-- type: document
-  path: "./404.md"
-  label: '404'
 - type: directory
   path: pages
   label: Pages
@@ -31,14 +28,18 @@ sections:
   new_doc_ext: md
   templates:
   - blog-post
+- type: document
+  path: "./README.md"
+  label: Readme
 upload_dir: "./static/img"
 public_path: "./static/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
+  preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
   mount_path: "/srv"
   working_dir: "/srv"
-  instant_preview_command: npm run develop
+  instant_preview_command: npm run forestry:preview
