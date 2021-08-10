@@ -3,6 +3,8 @@ const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
 
 module.exports = function(eleventyConfig) {
 
@@ -100,6 +102,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownIt(options)
     .use(markdownItAnchor, opts)
   );
+
+  eleventyConfig.addPlugin(pluginRss);
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
