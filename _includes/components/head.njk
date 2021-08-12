@@ -4,7 +4,7 @@
   <title>{{ renderData.title or title or metadata.title }}</title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or summary or metadata.description }}">
   <link rel="manifest" href="/static/manifest.json"/>
-  {% include "/assets/components/yandex-metrika.njk" %}
+  {% include "./yandex-metrika.njk" %}
   {% set css %}
     {% include "assets/css/normalize.css" %}
     {% include "assets/css/variables.css" %}
