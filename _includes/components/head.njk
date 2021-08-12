@@ -24,12 +24,11 @@
     {% endif %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
+  {% set js %}
+    {% include "assets/js/sw.js" %}
+    {% include "assets/js/ym.js" %}
+  {% endset %}
   <script>{{ js | jsmin | safe }}</script>
-  <script>
-  if ("serviceWorker" in navigator){
-    navigator.serviceWorker.register("/service-worker.js");
-  }
-  </script>
   {% if page.url == '/contact/' %}
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   {% endif %}
