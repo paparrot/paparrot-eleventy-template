@@ -1,0 +1,50 @@
+{
+  "short_name": "Paparrot",
+  "name": "Paparrot",
+  "icons": [
+    {
+      "src": "/static/img/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/img/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#1160ef",
+  "shortcuts": [
+    {
+      "name": "Перейти к блогу",
+      "short_name": "Блог",
+      "description": "Перейти к странице блога",
+      "url": "/blog",
+      "icons": [{ "src": "/static/img/blog.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Отправить email",
+      "short_name": "Контакты",
+      "description": "Перейти к странице отправки email-формы",
+      "url": "/contact",
+      "icons": [{ "src": "/static/img/contact.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Блог о веб-разработке, no-code и многом другом.",
+  "screenshots": [
+    {
+      "src": "/static/img/screenshot.png",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/static/img/screenshot.jpg",
+      "type": "image/jpg",
+      "sizes": "540x720"
+    }
+  ]
+}

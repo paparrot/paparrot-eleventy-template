@@ -4,7 +4,7 @@ const UglifyJS = require("uglify-es");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-
+const pluginPWA = require("eleventy-plugin-pwa");
 
 module.exports = function(eleventyConfig) {
 
@@ -86,6 +86,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
+  eleventyConfig.addPassthroughCopy("static/manifest.json")
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
@@ -104,6 +105,8 @@ module.exports = function(eleventyConfig) {
   );
 
   eleventyConfig.addPlugin(pluginRss);
+
+  eleventyConfig.addPlugin(pluginPWA);
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
