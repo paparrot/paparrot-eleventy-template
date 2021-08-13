@@ -44,5 +44,3 @@ fields:
     schema:
       format: markdown
   label: content
-pages:
-- posts/второй-пост-будет-здесь.md
