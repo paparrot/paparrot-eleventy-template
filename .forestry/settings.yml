@@ -4,14 +4,14 @@ auto_deploy: false
 admin_path: "/papa"
 webhook_url: 
 sections:
+- type: heading
+  label: Single
 - type: document
   path: _data/metadata.json
   label: Site Meta
-  match: "**/*"
 - type: document
   path: _data/home.json
   label: Home page
-  match: "**/*"
 upload_dir: "./static/img"
 public_path: "./static/img"
 front_matter_path: ''
