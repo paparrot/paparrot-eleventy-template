@@ -7,14 +7,19 @@ sections:
 - type: heading
   label: Single
 - type: document
-  path: 404.md
-  label: '404'
-- type: document
   path: _data/metadata.json
   label: Site Meta
 - type: document
   path: _data/home.json
   label: Home page
+- type: document
+  path: 404.md
+  label: '404'
+  match: "**/*"
+- type: document
+  path: README.md
+  label: Readme
+  match: "**/*"
 - type: heading
   label: Directions
 upload_dir: "./static/img"
