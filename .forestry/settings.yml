@@ -5,15 +5,19 @@ admin_path: "/papa"
 webhook_url: 
 sections:
 - type: heading
-  label: Directions
-- type: heading
   label: Single
+- type: document
+  path: 404.md
+  label: '404'
+  match: "**/*"
 - type: document
   path: _data/metadata.json
   label: Site Meta
 - type: document
   path: _data/home.json
   label: Home page
+- type: heading
+  label: Directions
 upload_dir: "./static/img"
 public_path: "./static/img"
 front_matter_path: ''
