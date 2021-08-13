@@ -15,15 +15,13 @@ sections:
 - type: document
   path: 404.md
   label: '404'
-  match: "**/*"
 - type: document
   path: README.md
   label: Readme
-  match: "**/*"
 - type: heading
   label: Directions
-upload_dir: "./static/img"
-public_path: "./static/img"
+upload_dir: static/img
+public_path: "/static/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
