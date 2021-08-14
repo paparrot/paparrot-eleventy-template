@@ -1,5 +1,5 @@
 ---
-author: 'paparrot '
+author: paparrot
 tags:
 - тест
 title: "Hello \U0001F44B world"
