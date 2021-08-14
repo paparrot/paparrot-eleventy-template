@@ -2,7 +2,7 @@
 title: Привет, блог!
 summary: Моя первая запись в блоге
 date: 2021-02-12
-author: paparrott
+author: paparrot
 tags:
 - блог
 
