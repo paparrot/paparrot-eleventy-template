@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: "/papa"
 webhook_url: 
 sections:
-- type: directory
-  path: formRedirect
-  label: Form Redirects
-  create: all
-  match: "**/*.md"
-  exclude: ".json"
-  new_doc_ext: md
 - type: heading
   label: Single
 - type: document
@@ -54,6 +47,13 @@ sections:
   new_doc_ext: md
   templates:
   - project
+- type: directory
+  path: formRedirect
+  label: Form Redirects
+  create: all
+  match: "**/*.md"
+  exclude: ".json"
+  new_doc_ext: md
 upload_dir: static/img
 public_path: "/static/img"
 front_matter_path: ''
