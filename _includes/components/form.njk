@@ -2,17 +2,17 @@
 id="contact-form"
 class="contact-form" 
 name="contact"
-action="https://submit-form.com/a0QZrfmR"
+action="https://submit-form.com/{{ metadata.keys.formSparkKey | safe }}"
 method="post"
 >
-  <input type="hidden" name="_redirect" value="//paparrot.vercel.app/thankyou/">
-  <input type="hidden" name="_error" value="//paparrot.vercel.app/error/">
+  <input type="hidden" name="_redirect" value="//{{ metadata.url }}/thankyou/">
+  <input type="hidden" name="_error" value="//{{ metadata.url }}/error/">
   <label for="name">Имя</label>
   <input id="name" name="name" type="text" autocomplete="name" placeholder="Илона Маскова" title="Пожалуйста, введите Ваше имя" required>
   <label for="email" >Email</label>
   <input type="email" id="email" name="email" autocomplete="email" placeholder="example@gmail.com" title="Некорректный адрес" pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
   <label for="message">Сообщение</label>
   <textarea name="message" id="message" placeholder="Здравствуйте дорогой Мартин Алексеич!" rows="5" required></textarea>
-  <div class="g-recaptcha" data-sitekey="6Lf2-fAbAAAAAEL0ukxJypLhN4EVz0QHfmhXA1oH"></div>
+  <div class="g-recaptcha" data-sitekey="{{ metadata.keys.reCaptchaKey | safe }}"></div>
   <button class="contact-form__submit btn" type="submit" name="submit">Отправить</button>
 </form>
