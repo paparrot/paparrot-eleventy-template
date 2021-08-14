@@ -16,6 +16,10 @@ sections:
   path: 404.md
   label: '404'
 - type: document
+  path: static/manifest.json
+  label: Manifest
+  match: "**/*"
+- type: document
   path: README.md
   label: Readme
 - type: heading
