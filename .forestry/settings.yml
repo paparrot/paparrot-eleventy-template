@@ -8,9 +8,9 @@ sections:
   path: formRedirects
   label: Form Redirects
   create: all
-  match: "**/*"
+  match: "**/*.md"
   exclude: ".json"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: heading
   label: Single
 - type: document
