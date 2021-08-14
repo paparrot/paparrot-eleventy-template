@@ -26,7 +26,18 @@ section: post
     {% endif %}
 
   </article>
-  {% include "components/comments.njk" %}
+  
+  <h4>Комментарии</h4>
+  <div id="cusdis_thread"
+    data-host="https://cusdis.com"
+    data-app-id="{{ metadata.keys.cusdisKey | safe }}"
+    data-page-id="{{ title | safe }} {{ date | safe }}"
+    data-page-url="{{ metadata.url }}/posts/{{ title | slug }}/"
+    data-page-title="{{ title | safe }}"
+  ></div>
+  <script defer src="https://cusdis.com/js/widget/lang/ru.js"></script>
+  <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+
   <nav>
     <a href="{{ '/blog/' | url }}">← Все статьи</a>
   </nav>
