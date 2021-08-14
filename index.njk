@@ -3,7 +3,6 @@ layout: layouts/base.njk
 section: home
 ---
 <div class="home-page">
-	<div class="home-page__bg-square"></div>
 
   <div class="hero">
     <div class="hero__col">
@@ -24,15 +23,17 @@ section: home
   </div>
 
   <hr>
-  <h2>Работы</h2>
-  {% set projectlist = collections.project %}
-  {% include "components/projectlist.njk" %}
-
-
-  <hr>
-  <h2>Статьи</h2>
+  <h2>Последние записи в блоге</h2>
   {% set postslist = collections.post %}
   {% set show_postslist_tags = false %}
   {% set limit = 3 %}
   {% include "components/postslist.njk" %}
+
+  <hr>
+  <h2>Портфолио</h2>
+  {% set projectlist = collections.project %}
+  {% include "components/projectlist.njk" %}
+
+
+  
 </div>
