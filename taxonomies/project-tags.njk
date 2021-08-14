@@ -1,0 +1,29 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+permalink: /project-tags/{{ tag }}/
+layout: layouts/base.njk
+renderData:
+  title: "{{ taxonomies.prtags.title | safe}} “{{ tag }}”"
+  metaDescription: "{{ taxonomies.prtags.metaDescription | safe }} “{{ tag }}”"
+---
+<div class="page-container">
+  <div class="tag-list tag-list--no-wrap">
+    <h3 class="tag-list__title">{{ taxonomies.prtags.title | safe }} "{{ tag | capitalize }}"</h3>
+    <a class="btn btn--danger" href="/projects">{{ taxonomies.prtags.removeTagFilter | safe }}</a>
+  </div>
+
+  {% set projectlist = collections[tag] %}
+  {% include "components/projectlist.njk" %}
+
+  <nav>
+    <a href="{{ '/projects/' | url }}">{{ taxonomies.prtags.backToAll | safe }}</a>
+  </nav>
+</div>

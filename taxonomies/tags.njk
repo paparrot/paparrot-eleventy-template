@@ -11,13 +11,13 @@ pagination:
 permalink: /tags/{{ tag }}/
 layout: layouts/base.njk
 renderData:
-  title: "“{{ tag }}”"
-  metaDescription: "Все посты с тегом “{{ tag }}”"
+  title: "{{taxonomies.tags.title | safe }} “{{ tag }}”"
+  metaDescription: "{{ taxonomies.tags.metaDescription | safe}} “{{ tag }}”"
 ---
 <div class="page-container">
   <div class="tag-list tag-list--no-wrap">
-    <h3 class="tag-list__title">Все посты с тегом: "{{ tag | capitalize }}"</h3>
-    <a class="btn btn--danger" href="/blog">Удалить тег</a>
+    <h3 class="tag-list__title">{{ taxonomies.tags.title | safe }} "{{ tag | capitalize }}"</h3>
+    <a class="btn btn--danger" href="/blog">{{ taxonomies.tags.removeTagFilter | safe }}</a>
   </div>
 
   {% set postslist = collections[tag] %}
@@ -25,6 +25,6 @@ renderData:
   {% include "components/postslist.njk" %}
 
   <nav>
-    <a href="{{ '/blog/' | url }}">← Все статьи</a>
+    <a href="{{ '/blog/' | url }}">{{ taxonomies.tags.backToAll | safe }}</a>
   </nav>
 </div>
