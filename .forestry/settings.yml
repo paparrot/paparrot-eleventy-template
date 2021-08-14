@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: "/papa"
 webhook_url: 
 sections:
+- type: directory
+  path: formRedirects
+  label: Form Redirects
+  create: all
+  match: "**/*"
+  exclude: ".json"
+  new_doc_ext: ".md"
 - type: heading
   label: Single
 - type: document
