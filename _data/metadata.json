@@ -1,5 +1,15 @@
 {
   "title": "paparrot",
   "description": "Привет, я Клим Плюснин, контент-менеджер и веб-разработчик. Это мой персональный сайт. Здесь можно почитать мой блог, посмотреть мои портфолио и резюме и связаться со мной.",
-  "url": "https://paparrot.vercel.app"
+  "url": "https://paparrot.vercel.app",
+  "keys": {
+    "formSparkKey": "a0QZrfmR",
+    "yandexMetrikaKey": 83957407,
+    "reCaptchaKey": "6Lf2-fAbAAAAAEL0ukxJypLhN4EVz0QHfmhXA1oH",
+    "cusdisKey": "98e6e97f-0149-46a0-8c21-a680b9e63a19"
+  },
+  "feed": {
+    "name": "Субботин Клим",
+    "email": "subbotin_klim@pm.me"
+  }
 }
