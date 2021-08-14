@@ -7,6 +7,10 @@ sections:
 - type: heading
   label: Single
 - type: document
+  path: _data/styles.json
+  label: Styles
+  match: "**/*"
+- type: document
   path: _data/metadata.json
   label: Site Meta
 - type: document
@@ -47,6 +51,20 @@ sections:
   new_doc_ext: md
   templates:
   - project
+- type: directory
+  path: formRedirect
+  label: Form Redirects
+  create: all
+  match: "**/*.md"
+  exclude: ".json"
+  new_doc_ext: md
+- type: directory
+  path: _data/taxonomies
+  label: Taxomonies
+  create: all
+  match: "**/*.json"
+  templates:
+  - taxonomy
 upload_dir: static/img
 public_path: "/static/img"
 front_matter_path: ''
