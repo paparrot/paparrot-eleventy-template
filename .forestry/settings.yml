@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: "/papa"
 webhook_url: 
 sections:
-- type: directory
-  path: _data/taxonomies
-  label: Taxomonies
-  create: all
-  match: "**/*.json"
-  templates:
-  - taxonomy
 - type: heading
   label: Single
 - type: document
@@ -61,6 +54,13 @@ sections:
   match: "**/*.md"
   exclude: ".json"
   new_doc_ext: md
+- type: directory
+  path: _data/taxonomies
+  label: Taxomonies
+  create: all
+  match: "**/*.json"
+  templates:
+  - taxonomy
 upload_dir: static/img
 public_path: "/static/img"
 front_matter_path: ''
