@@ -23,6 +23,30 @@ sections:
   label: Readme
 - type: heading
   label: Directions
+- type: directory
+  path: pages
+  label: Pages
+  create: all
+  match: "**/*.md"
+  new_doc_ext: ".md"
+  templates:
+  - page
+- type: directory
+  path: posts
+  label: Posts
+  create: all
+  match: "**/*.md"
+  new_doc_ext: ".md"
+  templates:
+  - blog-post
+- type: directory
+  path: projects
+  label: Projects
+  create: all
+  match: "**/*.md"
+  new_doc_ext: ".md"
+  templates:
+  - project
 upload_dir: static/img
 public_path: "/static/img"
 front_matter_path: ''
