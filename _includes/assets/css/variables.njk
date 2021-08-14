@@ -1,0 +1,31 @@
+<style>
+:root {
+  /* Brand Colors */
+  --color-primary: {{ styles.colorPrimary | safe }};
+  --color-secondary: {{ styles.colorSecondary | safe  }};
+
+  /* Background Colors */
+  --color-bg: {{ styles.colorBg | safe  }};
+  --color-bg-secondary: {{ styles.colorBgSecondary | safe  }};
+  --color-bg-accent:{{ styles.colorBgAccent | safe }};
+
+  /* Text and Border Colors */
+  --color-text: {{ styles.colorText | safe  }};
+  --color-text-alt: {{ styles.colorTextAlt | safe  }};
+  --color-border: {{ styles.colorBorder | safe  }};
+
+  /* Status Colors */
+  --color-danger: {{ styles.colorDanger | safe  }};
+
+  /* Typography */
+  --font-family-base: {{ styles.fontFamily | safe  }};
+  --font-family-heading: {{ styles.fontFamilyHeading | safe  }};
+
+  /* Sizes */
+  --site-width: {{ styles.siteWidth | safe  }}px;
+
+  /* Other */
+  --border-radius: {{ styles.borderRadius | safe  }}px;
+  --border-radius-sm: {{ styles.borderRadiusSm | safe  }}px;
+}
+</style>
