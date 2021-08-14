@@ -5,7 +5,7 @@ admin_path: "/papa"
 webhook_url: 
 sections:
 - type: directory
-  path: formRedirects
+  path: formRedirect
   label: Form Redirects
   create: all
   match: "**/*.md"
