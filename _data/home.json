@@ -1,6 +1,6 @@
 {
-  "title": "Привет, меня зовут Клим",
+  "title": "Hey there 🦜 I'm Paparrot",
   "image": "/static/img/hero.jpg",
-  "subtitle": "Я контент-менеджер, увлекаюсь разработкой, изучаю Java",
-  "image_alt": "Моя фотография"
+  "subtitle": "Simple template for portfolio and blog",
+  "image_alt": "Red parrot see you"
 }
