@@ -1,79 +1,78 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: '/papa'
-webhook_url:
+admin_path: "/papa"
+webhook_url: 
 sections:
-  - type: heading
-    label: Single
-  - type: document
-    path: _data/styles.json
-    label: Styles
-    match: '**/*'
-  - type: document
-    path: _data/metadata.json
-    label: Site Meta
-  - type: document
-    path: _data/home.json
-    label: Home page
-  - type: document
-    path: 404.md
-    label: '404'
-  - type: document
-    path: static/manifest.json
-    label: Manifest
-  - type: document
-    path: README.md
-    label: Readme
-  - type: heading
-    label: Directions
-  - type: directory
-    path: pages
-    label: Pages
-    create: all
-    match: '**/*.md'
-    new_doc_ext: md
-    templates:
-      - page
-  - type: directory
-    path: posts
-    label: Posts
-    create: all
-    match: '**/*.md'
-    new_doc_ext: md
-    templates:
-      - blog-post
-  - type: directory
-    path: projects
-    label: Projects
-    create: all
-    match: '**/*.md'
-    new_doc_ext: md
-    templates:
-      - project
-  - type: directory
-    path: formRedirect
-    label: Form Redirects
-    create: all
-    match: '**/*.md'
-    exclude: '.json'
-    new_doc_ext: md
-  - type: directory
-    path: _data/taxonomies
-    label: Taxomonies
-    create: all
-    match: '**/*.json'
-    templates:
-      - taxonomy
+- type: heading
+  label: Single
+- type: document
+  path: _data/styles.json
+  label: Styles
+- type: document
+  path: _data/metadata.json
+  label: Site Meta
+- type: document
+  path: _data/home.json
+  label: Home page
+- type: document
+  path: 404.md
+  label: '404'
+- type: document
+  path: static/manifest.json
+  label: Manifest
+- type: document
+  path: README.md
+  label: Readme
+- type: heading
+  label: Directions
+- type: directory
+  path: pages
+  label: Pages
+  create: all
+  match: "**/*.md"
+  new_doc_ext: md
+  templates:
+  - page
+- type: directory
+  path: posts
+  label: Posts
+  create: all
+  match: "**/*.md"
+  new_doc_ext: md
+  templates:
+  - blog-post
+- type: directory
+  path: projects
+  label: Projects
+  create: all
+  match: "**/*.md"
+  new_doc_ext: md
+  templates:
+  - project
+- type: directory
+  path: formRedirect
+  label: Form Redirects
+  create: all
+  match: "**/*.md"
+  exclude: ".json"
+  new_doc_ext: md
+- type: directory
+  path: _data/taxonomies
+  label: Taxomonies
+  create: all
+  match: "**/*.json"
+  templates:
+  - taxonomy
 upload_dir: static/img
-public_path: '/static/img'
+public_path: "/static/img"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ':filename:'
+file_template: ":filename:"
 build:
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: forestryio/node:12
-  mount_path: '/srv'
-  working_dir: '/srv'
+  mount_path: "/srv"
+  working_dir: "/srv"
   instant_preview_command: npm run forestry:preview

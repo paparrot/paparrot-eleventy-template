@@ -1,0 +1,42 @@
+---
+label: Project
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: emoji
+  type: text
+  config:
+    required: false
+  label: Emoji
+  default: "\U0001F9D1‍\U0001F4BB"
+- name: metaDescription
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: MetaDescription
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: summary
+  type: text
+  config:
+    required: false
+  label: Summary
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags

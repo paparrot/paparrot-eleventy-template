@@ -1,0 +1,59 @@
+---
+label: Page
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: metaDescription
+  type: text
+  config:
+    required: false
+  label: MetaDescription
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: permalink
+  type: text
+  config:
+    required: true
+  label: Permalink
+- name: emoji
+  type: text
+  config:
+    required: false
+  label: Emoji
+- name: eleventyNavigation
+  type: field_group
+  config: {}
+  fields:
+  - name: key
+    type: text
+    config:
+      required: true
+    label: Key
+  - name: order
+    type: number
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+      required: true
+    label: Order
+  label: EleventyNavigation
