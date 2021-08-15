@@ -4,7 +4,9 @@
   "description": "The super simple portfolio template built with Eleventy and Netlify CMS",
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "stylelint": "stylelint '**/*{.css,.scss}'",
+    "stylelint:fix": "stylelint '**/*{.css,.scss}' --fix"
   },
   "repository": {
     "type": "git",
@@ -33,5 +35,15 @@
     "eleventy-plugin-pwa": "^1.0.8",
     "html-minifier": "^4.0.0",
     "uglify-es": "^3.3.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.(css|scss)": [
+      "stylelint --fix"
+    ]
   }
 }
