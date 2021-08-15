@@ -1,7 +1,7 @@
 {
-  "title": "paparrot",
-  "description": "Привет, я Клим Плюснин, контент-менеджер и веб-разработчик. Это мой персональный сайт. Здесь можно почитать мой блог, посмотреть мои портфолио и резюме и связаться со мной.",
-  "url": "https://paparrot.vercel.app",
+  "title": "Paparrot",
+  "description": "Hey, i'm paparrot, portfolio template based on fernfolio-eleventy-template.",
+  "url": "https://paparrot-eleventy-template.vercel.app",
   "keys": {
     "formSparkKey": "a0QZrfmR",
     "yandexMetrikaKey": 83957407,
@@ -9,7 +9,7 @@
     "cusdisKey": "98e6e97f-0149-46a0-8c21-a680b9e63a19"
   },
   "feed": {
-    "name": "Субботин Клим",
-    "email": "subbotin_klim@pm.me"
+    "name": "Ilona Maskova",
+    "email": "example@gmail.com"
   }
 }
