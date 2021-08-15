@@ -21,9 +21,9 @@
   "theme_color": "#fafafa",
   "shortcuts": [
     {
-      "name": "Перейти к блогу",
-      "short_name": "Блог",
-      "description": "Перейти к странице блога",
+      "name": "Go to blog",
+      "short_name": "Blog",
+      "description": "",
       "url": "/blog",
       "icons": [
         {
@@ -45,7 +45,7 @@
       ]
     }
   ],
-  "description": "Блог о веб-разработке, no-code и многом другом.",
+  "description": "Personal site template",
   "screenshots": [
     {
       "src": "/static/img/screenshot.png",
