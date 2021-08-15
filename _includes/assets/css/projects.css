@@ -25,9 +25,9 @@
 }
 
 .project-card__tag {
+  color: var(--color-text-alt);
   font-weight: 600;
   background-color: var(--color-secondary);
-  color: var(--color-text-alt);
 }
 
 .project-card__tag:hover {

@@ -46,12 +46,12 @@
 .tag {
   margin: 10px 10px 0 0;
   padding: 6px 8px;
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 13px;
+  white-space: nowrap;
   background-color: var(--color-bg-secondary);
   border-radius: var(--border-radius-sm);
-  color: var(--color-secondary);
-  white-space: nowrap;
-  font-size: 13px;
-  font-weight: 600;
 }
 
 .tag:hover {

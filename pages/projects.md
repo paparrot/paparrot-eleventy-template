@@ -1,7 +1,7 @@
 ---
 layout: layouts/projects.njk
 title: Портфолио
-subtitle: ""
+subtitle: ''
 metaDescription: Мои работы.
 date: 2021-01-01
 permalink: /projects/index.html

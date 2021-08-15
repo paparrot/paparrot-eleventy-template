@@ -5,8 +5,9 @@
   "scripts": {
     "start": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
-    "stylelint": "stylelint '**/*{.css,.scss}'",
-    "stylelint:fix": "stylelint '**/*{.css,.scss}' --fix"
+    "prepare": "husky install",
+    "stylelint": "stylelint ./**/*.css --fix",
+    "prettier": "prettier ./ --write"
   },
   "repository": {
     "type": "git",
@@ -25,9 +26,15 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "husky": "^7.0.1",
     "luxon": "^1.25.0",
     "markdown-it": "^10.0.0",
-    "markdown-it-anchor": "^5.3.0"
+    "markdown-it-anchor": "^5.3.0",
+    "prettier": "^2.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0"
   },
   "dependencies": {
     "@11ty/eleventy-navigation": "^0.1.6",
@@ -35,15 +42,5 @@
     "eleventy-plugin-pwa": "^1.0.8",
     "html-minifier": "^4.0.0",
     "uglify-es": "^3.3.9"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.(css|scss)": [
-      "stylelint --fix"
-    ]
   }
 }
