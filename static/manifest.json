@@ -33,9 +33,9 @@
       ]
     },
     {
-      "name": "Отправить email",
-      "short_name": "Контакты",
-      "description": "Перейти к странице отправки email-формы",
+      "name": "Send email",
+      "short_name": "Contacts",
+      "description": "Go to contact page",
       "url": "/contact",
       "icons": [
         {
