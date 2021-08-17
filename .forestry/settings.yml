@@ -12,9 +12,11 @@ sections:
 - type: document
   path: _data/styles.json
   label: Styles
+  match: "**/*"
 - type: document
   path: _data/home.json
   label: Home page
+  match: "**/*"
 - type: document
   path: 404.md
   label: '404'
