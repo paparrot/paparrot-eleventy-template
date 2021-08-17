@@ -1,6 +1,6 @@
 {
-  "title": "Все посты с тегом ",
-  "metaDescription": "Все посты с тегом ",
-  "removeTagFilter": "Очистить фильтр",
-  "backToAll": "← Ко всем постам"
+  "title": "All posts with tag",
+  "metaDescription": "All posts with tag",
+  "removeTagFilter": "Clear",
+  "backToAll": "← To all posts"
 }
