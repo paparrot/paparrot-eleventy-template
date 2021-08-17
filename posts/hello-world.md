@@ -1,21 +1,21 @@
 ---
 author: paparrot
 tags:
-- Blog
-- Lifestyle
-- Web
+  - Blog
+  - Lifestyle
+  - Web
 title: Hello world
 summary: First one post in blog
 date: 2021-08-16T21:00:00Z
-
 ---
+
 ## Title
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a eros porta, sagittis felis eu, tempor lectus. Pellentesque mattis ante sed cursus sagittis. Aliquam dictum velit a elit placerat, at venenatis nulla dictum. Proin id augue ac eros tempus mollis. Mauris lacus erat, sodales vel leo quis, imperdiet auctor lorem. Mauris ut tincidunt magna. Mauris vitae lectus in nibh rutrum semper. Quisque gravida eu felis a sollicitudin. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus id maximus augue, at tempus diam. Suspendisse tristique lectus nunc. Integer sed convallis erat. Morbi eu enim cursus, ultrices diam quis, tincidunt dolor. Duis laoreet, ligula et bibendum volutpat, ex nisl consectetur eros, id vulputate dolor ligula sollicitudin nibh. Cras volutpat, dolor vitae tristique iaculis, ligula purus ultricies lacus, non sodales ex odio non metus. Donec non dignissim augue.
 
 Nullam efficitur consectetur lectus, ac viverra lorem sollicitudin in. Curabitur dictum, nibh in commodo posuere, neque odio faucibus tellus, cursus aliquet enim diam eget nulla. Nullam sem nulla, rhoncus id laoreet nec, bibendum porttitor sapien. Phasellus bibendum ipsum et ipsum pretium sodales. Aenean urna elit, lobortis a metus sit amet, sodales efficitur lorem. Etiam tempor diam vitae diam tincidunt semper. Maecenas suscipit nisi ac ligula laoreet pulvinar. Nullam venenatis orci lacus, quis tristique nisi cursus eu. Quisque condimentum est a commodo auctor. Vivamus cursus convallis convallis. Praesent sit amet ultricies metus. Suspendisse mollis orci ut ex accumsan tempor. Pellentesque iaculis, arcu vitae dapibus ultricies, quam velit venenatis nisi, vel egestas nisl diam ac leo. Cras blandit mi vitae congue interdum. Nam posuere tortor diam, ac ultricies turpis tempus at. Fusce efficitur pharetra arcu, sed dictum arcu.
 
-![Whats up man?](/static/img/parrot.jpg "Parrot")
+![Whats up man?](/static/img/parrot.jpg 'Parrot')
 
 > Photo by [Sreenivas](https://unsplash.com/@sree97)
 
@@ -27,5 +27,5 @@ Nullam efficitur consectetur lectus, ac viverra lorem sollicitudin in. Curabitur
 
 ### List title
 
-* First one point
-* Second one point
+- First one point
+- Second one point

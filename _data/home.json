@@ -2,5 +2,8 @@
   "title": "Hey there! I'm Paparrot",
   "image": "/static/img/hero.jpg",
   "subtitle": "Simple template for portfolio and blog 🦜",
-  "image_alt": "Red parrot see you"
+  "image_alt": "Red parrot see you",
+  "postsTitle": "Newest posts",
+  "postsLength": 3,
+  "projectsTitle": "Projects"
 }

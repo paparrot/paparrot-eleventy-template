@@ -23,14 +23,14 @@ section: home
   </div>
 
   <hr>
-  <h2>Последние записи в блоге</h2>
+  <h2>{{ home.postsTitle }}</h2>
   {% set postslist = collections.post %}
   {% set show_postslist_tags = false %}
-  {% set limit = 3 %}
+  {% set limit = {{ home.postsLength }} %}
   {% include "components/postslist.njk" %}
 
   <hr>
-  <h2>Портфолио</h2>
+  <h2>{{ home.projectsTitle }}</h2>
   {% set projectlist = collections.project %}
   {% include "components/projectlist.njk" %}
 
