@@ -9,7 +9,6 @@ sections:
 - type: document
   path: _data/metadata.json
   label: Site meta
-  match: "**/*"
 - type: document
   path: _data/styles.json
   label: Styles
