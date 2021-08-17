@@ -1,11 +1,13 @@
 ---
 layout: layouts/blog.njk
-title: Блог
-subtitle: Краткие заметки о веб-разработке и всяком разном.
-metaDescription: Мои наблюдения, размышления, рабочие заметки.
-date: 2017-01-01
-permalink: /blog/index.html
+title: Blog
+subtitle: Short notes about web, design and movies
+metaDescription: Short notes about everythink
+date: 2016-12-31T21:00:00Z
+permalink: "/blog/index.html"
 eleventyNavigation:
-  key: Блог
+  key: Blog
   order: 2
+emoji: "\U0001F4DD"
+
 ---
