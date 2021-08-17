@@ -6,7 +6,8 @@
     "formSparkKey": "form spark key must be here",
     "yandexMetrikaKey": "yandex metrika id  must be here",
     "reCaptchaKey": "reCAPTCHA public key  must be here",
-    "cusdisKey": "cusdis key must be here"
+    "cusdisKey": "cusdis key must be here",
+    "googleAnalytics": "google analytics key must be here"
   },
   "feed": {
     "name": "Ilona Maskova",
