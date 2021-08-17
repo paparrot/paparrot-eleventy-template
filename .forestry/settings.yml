@@ -59,7 +59,7 @@ sections:
   new_doc_ext: md
 - type: directory
   path: _data/taxonomies
-  label: Taxomonies
+  label: Taxonomies
   create: all
   match: "**/*.json"
   templates:
