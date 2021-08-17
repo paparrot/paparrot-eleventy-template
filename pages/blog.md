@@ -11,3 +11,4 @@ eleventyNavigation:
 emoji: "\U0001F4DD"
 
 ---
+![Notes](/static/img/notes.jpg "Notes")
