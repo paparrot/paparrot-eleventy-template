@@ -1,10 +1,12 @@
 ---
-title: Обо мне
+title: About
 subtitle: ''
-metaDescription: Страница обо мне
-date: 2017-01-01T00:00:00.000Z
-permalink: /about/index.html
+metaDescription: Page about pretty portfolio template
+date: 2017-01-01T00:00:00Z
+permalink: "/about/index.html"
 eleventyNavigation:
-  key: Обо мне
+  key: About
   order: 1
+emoji: "\U0001F99C"
+
 ---
