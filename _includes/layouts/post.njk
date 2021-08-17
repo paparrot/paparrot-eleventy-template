@@ -29,7 +29,7 @@ section: post
 
   {% if services.cusdis.enable == true %}
   
-  <h4>Комментарии</h4>
+  <h4>{{ comments_title }}</h4>
   <div id="cusdis_thread"
     data-host="https://cusdis.com"
     data-app-id="{{ services.cusdis.key | safe }}"

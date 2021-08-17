@@ -7,6 +7,7 @@ tags:
 title: Hello world
 summary: First one post in blog
 date: 2021-08-16T21:00:00Z
+comments_title: 'Comments'
 ---
 
 ## Title
