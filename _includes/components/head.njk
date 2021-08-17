@@ -6,8 +6,12 @@
   <meta name="theme-color" content="{{ styles.colorPrimary }}">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.jpg">
   <link rel="manifest" href="/static/manifest.json"/>
-  {% include "./yandex-metrika.njk" %}
-  {% include "./google-analytics.njk" %}
+  {% if services.yandex_metrika.enable == true %}
+    {% include "./yandex-metrika.njk" %}
+  {% endif %}
+  {% if services.google_analytics.enable == true %}
+    {% include "./google-analytics.njk" %}
+  {% endif %}
   {% include "assets/css/variables.njk" %}
   {% set css %}
     {% include "assets/css/normalize.css" %}
@@ -31,7 +35,7 @@
     {% include "assets/js/sw.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
-  {% if page.url == '/contact/' %}
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  {% if page.url == '/contact/' and services.reCaptcha.enable == true %}
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   {% endif %}
 </head>

@@ -1,0 +1,23 @@
+{
+  "yandex_metrika": {
+    "enable": false,
+    "key": "type your key"
+  },
+  "google_analytics": {
+    "enable": false,
+    "key": "type your key"
+  },
+  "formSpark": {
+    "enable": false,
+    "key": "type your key"
+  },
+  "cusdis": {
+    "enable": false,
+    "key": "type your key",
+    "locale": "en"
+  },
+  "reCaptcha": {
+    "enable": false,
+    "key": "type your key"
+  }
+}
