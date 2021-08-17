@@ -1,5 +1,6 @@
 {
-  "title": "Все посты автора: ",
-  "metaDescription": "Все посты автора: ",
-  "backToAll": "← Ко всем авторам"
+  "title": "All posts writen by",
+  "metaDescription": "All posts writen by",
+  "backToAll": "← All posts",
+  "removeTagFilter": "Clear"
 }
