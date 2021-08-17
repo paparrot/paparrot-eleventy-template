@@ -1,0 +1,8 @@
+.theme-toggler {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.theme-toggler__icon {
+  fill: var(--color-text);
+}

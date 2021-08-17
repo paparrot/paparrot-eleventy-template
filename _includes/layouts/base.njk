@@ -11,6 +11,12 @@
 		</main>
 
 		{% include "components/footer.njk" %}
+		{% set js %}
+		{% include "assets/js/theme-toggler.js" %}
+		{% endset %}
+		<script>
+		{{ js | jsmin | safe }}
+		</script>
 	</body>
 
 </html>

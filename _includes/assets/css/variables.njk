@@ -1,5 +1,5 @@
 <style>
-:root {
+html {
   /* Brand Colors */
   --color-primary: {{ styles.colorPrimary | safe }};
   --color-secondary: {{ styles.colorSecondary | safe  }};
@@ -27,5 +27,45 @@
   /* Other */
   --border-radius: {{ styles.borderRadius | safe  }}px;
   --border-radius-sm: {{ styles.borderRadiusSm | safe  }}px;
+}
+
+html.dark {
+   /* Brand Colors */
+  --color-primary: {{ styles.dark.colorPrimary | safe }};
+  --color-secondary: {{ styles.dark.colorSecondary | safe  }};
+
+  /* Background Colors */
+  --color-bg: {{ styles.dark.colorBg | safe  }};
+  --color-bg-secondary: {{ styles.dark.colorBgSecondary | safe  }};
+  --color-bg-accent:{{ styles.dark.colorBgAccent | safe }};
+
+  /* Text and Border Colors */
+  --color-text: {{ styles.dark.colorText | safe  }};
+  --color-text-alt: {{ styles.dark.colorTextAlt | safe  }};
+  --color-border: {{ styles.dark.colorBorder | safe  }};
+
+  /* Status Colors */
+  --color-danger: {{ styles.dark.colorDanger | safe  }};
+}
+
+@media(prefers-color-scheme:  dark) {
+    html {
+     /* Brand Colors */
+    --color-primary: {{ styles.dark.colorPrimary | safe }};
+    --color-secondary: {{ styles.dark.colorSecondary | safe  }};
+
+    /* Background Colors */
+    --color-bg: {{ styles.dark.colorBg | safe  }};
+    --color-bg-secondary: {{ styles.dark.colorBgSecondary | safe  }};
+    --color-bg-accent:{{ styles.dark.colorBgAccent | safe }};
+
+    /* Text and Border Colors */
+    --color-text: {{ styles.dark.colorText | safe  }};
+    --color-text-alt: {{ styles.dark.colorTextAlt | safe  }};
+    --color-border: {{ styles.dark.colorBorder | safe  }};
+
+    /* Status Colors */
+    --color-danger: {{ styles.dark.colorDanger | safe  }};
+  }
 }
 </style>

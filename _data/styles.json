@@ -1,16 +1,27 @@
 {
-  "colorPrimary": "#1160ef",
-  "colorSecondary": "#5e35b1",
-  "colorBg": "#fafafa",
-  "colorBgSecondary": "#c7c7c7",
-  "colorBgAccent": "#efefef",
-  "colorText": "#000a12",
-  "colorTextAlt": "#ffffff",
+  "colorPrimary": "#7C3AED",
+  "colorSecondary": "#2563EB",
+  "colorBg": "#F9FAFB",
+  "colorBgSecondary": "#F3F4F6",
+  "colorBgAccent": "#E5E7EB",
+  "colorText": "#111827",
+  "colorTextAlt": "#BFDBFE",
   "colorBorder": "rgba(0, 0, 0, 0.06)",
-  "colorDanger": "#e03e3e",
+  "colorDanger": "#EF4444",
   "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif",
   "fontFamilyHeading": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif",
   "siteWidth": 850,
   "borderRadius": 12,
-  "borderRadiusSm": 5
+  "borderRadiusSm": 5,
+  "dark": {
+    "colorPrimary": "#8B5CF6",
+    "colorSecondary": "#3B82F6",
+    "colorBg": "#1F2937",
+    "colorBgSecondary": "#374151",
+    "colorBgAccent": "#4B5563",
+    "colorText": "#F9FAFB",
+    "colorTextAlt": "#1F2937",
+    "colorBorder": "rgba(255, 255, 255, 0.06)",
+    "colorDanger": "#F87171"
+  }
 }
