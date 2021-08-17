@@ -26,7 +26,7 @@ section: home
   <h2>{{ home.postsTitle }}</h2>
   {% set postslist = collections.post %}
   {% set show_postslist_tags = false %}
-  {% set limit = {{ home.postsLength }} %}
+  {% set limit = home.postsLength %}
   {% include "components/postslist.njk" %}
 
   <hr>
