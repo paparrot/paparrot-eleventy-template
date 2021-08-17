@@ -2,13 +2,6 @@
   "title": "Paparrot",
   "description": "Hey, i'm paparrot, portfolio template based on fernfolio-eleventy-template.",
   "url": "https://paparrot-eleventy-template.vercel.app",
-  "keys": {
-    "formSparkKey": "form spark key must be here",
-    "yandexMetrikaKey": "yandex metrika id  must be here",
-    "reCaptchaKey": "reCAPTCHA public key  must be here",
-    "cusdisKey": "cusdis key must be here",
-    "googleAnalytics": "google analytics key must be here"
-  },
   "feed": {
     "name": "Ilona Maskova",
     "email": "example@gmail.com"
