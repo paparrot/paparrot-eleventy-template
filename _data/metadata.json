@@ -2,6 +2,7 @@
   "title": "Paparrot",
   "description": "Hey, i'm paparrot, portfolio template based on fernfolio-eleventy-template.",
   "url": "https://paparrot-eleventy-template.vercel.app",
+  "site_language": "en",
   "feed": {
     "name": "Ilona Maskova",
     "email": "example@gmail.com"
