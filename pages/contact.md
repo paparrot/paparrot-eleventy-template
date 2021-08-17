@@ -1,17 +1,15 @@
 ---
 section: contact
 layout: layouts/contact.njk
-title: Контакты
+title: Contacts
 subtitle: ''
-metaDescription: Пригласить на работу, предложить интересный проект, помочь с
-  редактированием контента или просто пообщаться со мной можно заполнив
-  следующую форму.
-date: 2018-01-01
-permalink: /contact/index.html
+metaDescription: Send me a message
+date: 2017-12-31T21:00:00Z
+permalink: "/contact/index.html"
 eleventyNavigation:
-  key: Контакты
+  key: Contacts
   order: 5
----
+emoji: "\U0001F4E7"
 
-Если у Вас есть интересные предложения или замечания, пожалуйста, поделитесь со мной, заполнив форму ниже.
-Вы также можете написать мне в [телеграме](https://t.me/paparrot), [твиттере](https://twitter.com/paparrot1), или отправить пулл-реквест в репозиторий на [гитхабе](https://github.com/paparrot/portfolio).
+---
+## Send me a message
