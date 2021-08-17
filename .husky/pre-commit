@@ -4,3 +4,4 @@
 npm run prettier
 npm run stylelint
 git add .
+npm run build
