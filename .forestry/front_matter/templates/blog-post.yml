@@ -34,13 +34,13 @@ fields:
 - name: comments_title
   type: text
   config:
-    required: false
+    required: true
   label: Commetns title
   default: Comments
 - name: back_to
   type: text
   config:
-    required: false
+    required: true
   label: Back to
   description: Label for "back to all" link
   default: To all posts
