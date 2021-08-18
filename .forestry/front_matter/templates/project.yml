@@ -40,3 +40,10 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: back_to
+  type: text
+  config:
+    required: true
+  label: Back to
+  description: Label for "back to all projects" button
+  default: To all projects
