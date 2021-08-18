@@ -5,7 +5,7 @@ admin_path: "/papa"
 webhook_url: 
 sections:
 - type: heading
-  label: Single
+  label: Meta
 - type: document
   path: _data/metadata.json
   label: Site meta
@@ -13,11 +13,13 @@ sections:
   path: _data/services.json
   label: Services
 - type: document
-  path: _data/socials.json
-  label: Socials
-- type: document
   path: _data/styles.json
   label: Styles
+- type: document
+  path: _data/socials.json
+  label: Socials
+- type: heading
+  label: Single
 - type: document
   path: _data/home.json
   label: Home page
