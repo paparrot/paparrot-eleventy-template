@@ -31,10 +31,10 @@ fields:
   type: tag_list
   default: []
   label: Tags
-- name: comments_text
+- name: comments_title
   type: text
   config:
     required: false
-  label: Commetns label
+  label: Commetns title
 pages:
 - posts/hello-world.md
