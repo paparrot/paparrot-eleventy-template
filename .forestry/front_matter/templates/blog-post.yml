@@ -2,39 +2,39 @@
 label: Blog Post
 hide_body: false
 fields:
-- name: title
-  type: text
-  config:
-    required: true
-  label: Title
-- name: summary
-  type: text
-  config:
-    required: false
-  label: Summary
-- name: date
-  type: datetime
-  label: Date
-  description: ''
-  config:
-    required: true
-    date_format: 
-    time_format: 
-    display_utc: false
-- name: author
-  type: text
-  config:
-    required: true
-  label: Author
-  default: paparrot
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
-- name: comments_title
-  type: text
-  config:
-    required: false
-  label: Commetns title
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: summary
+    type: text
+    config:
+      required: false
+    label: Summary
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: true
+      date_format:
+      time_format:
+      display_utc: false
+  - name: author
+    type: text
+    config:
+      required: true
+    label: Author
+    default: paparrot
+  - name: tags
+    type: tag_list
+    default: []
+    label: Tags
+  - name: comments_title
+    type: text
+    config:
+      required: false
+    label: Commetns title
 pages:
-- posts/hello-world.md
+  - posts/hello-world.md
