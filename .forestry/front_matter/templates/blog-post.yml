@@ -43,6 +43,6 @@ fields:
     required: true
   label: Back to
   description: Label for "back to all" link
-  default: To all posts
+  default: "← To all posts"
 pages:
 - posts/hello-world.md
