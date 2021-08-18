@@ -46,4 +46,4 @@ fields:
     required: true
   label: Back to
   description: Label for "back to all projects" button
-  default: To all projects
+  default: "← To all projects"
