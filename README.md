@@ -2,59 +2,64 @@
 [![paparrot-github-action](https://github.com/paparrot/paparrot-eleventy-template/actions/workflows/main.yml/badge.svg)](https://github.com/paparrot/paparrot-eleventy-template/actions/workflows/main.yml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-# Fernfolio
+# Paparrot
 
-The super simple portfolio template built with [Eleventy](https://www.11ty.io/) and [Netlify CMS](https://www.netlifycms.org/)
+Simple personal site built with [Eleventy](https://11ty.dev) and hosted on [Vercel](https://vercel.com). Template based on [Fernfolio](https://fernfolio.netlify.app/).
 
-<img width="1280" alt="fernfolio screenshot" src="https://raw.githubusercontent.com/TylerMRoderick/fernfolio-11ty-template/master/fernfolio-preview.png">
+![image](https://user-images.githubusercontent.com/59335849/129950145-4229ff99-7172-4811-b94a-fc72faa3c06b.png)
 
-### <pre>🖥 [Demo](https://fernfolio.netlify.app/)</pre>
+### <pre>🖥 [Demo](https://paparrot-eleventy-template.vercel.app/)</pre>
 
-## 🤔 What is this?
+## ✔️ Features
 
-An [Eleventy](https://www.11ty.io/) theme designed to simplify the process of deploying a beautiful portfolio and blog. Launch your site in minutes!
-
-Based on the [eleventy-netlify-boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate), but modified to perfectly fit the needs of a modern technical porfolio.
-
-## ✨ Features
-
-- Built in support for [Netlify CMS](https://www.netlifycms.org/) with editor previews
-- Customizable blog and project pages with tag support
-- Working contact form powered by [Netlify Forms](https://www.netlify.com/products/forms/)
-- Super fast page render and high lighthouse scores
-- Uses Markdown for content files and Nunjucks for layouts
-- 100% Javascript framework free
-- Continuous Deployment workflow via [Netlify](https://www.netlify.com/)
-- Base styles powered by [Sakura](https://github.com/oxalorg/sakura) classless css framework
-- Vanilla css for custom styles (keep it simple)
+- [x] Full customization from Forestry CMS
+- [x] RSS-feed
+- [x] Progressive web app (offline reading available)
+- [x] Google Analytics
+- [x] Yandex.Metrika
+- [x] Working form based on FormSpark and protected with reCAPTCHA
+- [x] Working comments based on Cusdis
+- [x] Socials link
+- [x] Dark mode
+- [ ] Social media buttons
 
 ## 🚀 Quick Start
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/TylerMRoderick/fernfolio-11ty-template&stack=cms)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world&project-name=paprrot-portfolio&repo-name=paparrot-portfolio&redirect-url=https%3A%2F%2Fforestry.io%2F&demo-title=Paparrot&demo-description=A%20statically%20generated%20personal%20site%20build%20with%20Eleventy&demo-url=https%3A%2F%2Fpaparrot-eleventy-template.vercel.app%2F&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2Fpaparrot%2Fpaparrot-eleventy-template%2Fmaster%2Fstatic%2Fimg%2Fscreenshot%2520vercel.png)
 
-### 1. Click the "Deploy to Netlify" button above
+### 1. Click the "Deploy" button above
 
-This will clone this repo to your github account and will deploy a copy of the demo website to your Netlify
-account (you can create an account during this process if you don't have one)
+![image](https://user-images.githubusercontent.com/59335849/129957010-d04965ed-fd76-4169-9150-05c695575b1e.png)
+Now, connect with you Github (or Gitlab, Bitbucket) account, check "Create private repository" and type your new repository name. All your files will be there.
 
-### 2. Setup authentication
+![image](https://user-images.githubusercontent.com/59335849/129957223-66944a52-fccb-4715-a9e5-03fc4ba47141.png)
+You can skip this block.
 
-After deploying this project, Netlify Identity will add you as a CMS user and
-will email you an invite. Hit the "Accept the invite" link and this should take you to the deployed site. From there, you can add your password to finish user setup.
+![image](https://user-images.githubusercontent.com/59335849/129957360-70c4a159-555d-4662-87a2-3f538980ba72.png)
+Wait while your repository will be deployed on Vercel.
+
+### 2. Connect with Forestry
+
+Now, go to [Forestry CSM](https://forestry.io) and sing up with your git-provider (Github, Gitlab, Bitbucket), log in, and click to "Add Site" button.
+![image](https://user-images.githubusercontent.com/59335849/129957915-55482051-f3e6-464b-afa2-524ce35f793f.png)
+Select the 11ty (our site was build with this static generator), select your git provider.
+![image](https://user-images.githubusercontent.com/59335849/129958155-db33de40-4728-4243-871e-a2cc7fdf2ce1.png)
+Connect with private repos (click to "Not showing private repos" button).
+Select name of repo that you deployed in first step and select main (or master) branch.
 
 ### 3. Edit some content
 
-Now that you are added as a CMS user, add `/admin` to the end of your site url, and log in using your new credentials. You should now see the content editor interface. Now you can start editing content! Any changes to your new repo will auto-deploy a new version to netflify. Cool huh?
+Now you can edit your site data. Click to sections in sidebar and type perfect content!
 
 ### 4. Setup local environment
 
-- Clone the repo locally `git clone https://github.com/TylerMRoderick/fernfolio-11ty-template.git`
-- Navigate to root folder `cd your-site`
+- Clone the repo locally `git clone https://github.com/paparrot/paparrot-eleventy-template.git`
+- Navigate to root folder `cd paparrot-eleventy-template`
 - Install the goods `npm install`
 - Run it `npm start`
 - You should now be able to see everything running on localhost:8080
-- Add some changes (view [theme customizations](https://fernfolio.netlify.app/posts/theme-customizations/) for some options)
-- Push your changes to github and an auto-deploy should be triggered
+- When you commit to local git branches husky start the prettier and stylelint, after this it start build project. If no one error, you can commit.
+- Github actions make this test too, for correct commits from Forestry
 
 ## 💻 Development Scripts
 
@@ -68,17 +73,15 @@ Now that you are added as a CMS user, add `/admin` to the end of your site url, 
 
 Use this as the "Publish command" if needed by hosting such as Netlify.
 
+**`npm run stylelint`**
+
+> Run stylelint with --fix option only on css files
+
+**`npm run prettier`**
+
+> Run prettier code formatter
+
 Checkout the Eleventy [Command Line Usage docs](https://www.11ty.dev/docs/usage/) for more options
-
-## 🎩 Common issues
-
-If you change the repo that was created at deploy time from public to private, you'll need to regenerate your token,
-as the token generated using the deploy to Netlify button can only access public repositories. To
-regenerate your token, head to "Settings" in your Netlify site dashboard, go to the "Identity"
-section, then scroll to "Services" where you'll see an "Edit settings" button. Click that and you'll
-see a text link to "Generate access token in GitHub".
-
-If you need any help with setting up Netlify CMS, you can reach out to the Netlify team in the [Netlify CMS Gitter](https://gitter.im/netlify/netlifycms).
 
 ## Bug reports, feature requests, etc
 
