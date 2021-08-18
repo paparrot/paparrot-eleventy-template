@@ -44,8 +44,11 @@ Wait while your repository will be deployed on Vercel.
 
 Now, go to [Forestry CMS](https://forestry.io) and sing up with your git-provider (Github, Gitlab, Bitbucket), log in, and click to "Add Site" button.
 ![image](https://user-images.githubusercontent.com/59335849/129957915-55482051-f3e6-464b-afa2-524ce35f793f.png)
+
 Select the 11ty (our site was build with this static generator), select your git provider.
+
 ![image](https://user-images.githubusercontent.com/59335849/129958155-db33de40-4728-4243-871e-a2cc7fdf2ce1.png)
+
 Connect with private repos (click to "Not showing private repos" button).
 Select name of repo that you deployed in first step and select main (or master) branch.
 
