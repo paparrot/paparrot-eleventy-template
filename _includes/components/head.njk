@@ -4,7 +4,7 @@
   <title>{{ renderData.title or title or metadata.title }}</title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or summary or metadata.description }}">
   <meta name="theme-color" content="{{ styles.colorPrimary }}">
-  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.jpg">
+  <link rel="apple-touch-icon" href="/static/img/apple-touch-icon.jpg">
   <link rel="manifest" href="/static/manifest.json"/>
   {% if services.yandex_metrika.enable == true %}
     {% include "./yandex-metrika.njk" %}
