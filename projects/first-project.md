@@ -1,15 +1,17 @@
 ---
 title: Cat Translation API
-emoji: 😺
-metaDescription: This is a sample meta description. If one is not present in your page/project's front matter, the default metadata.desciption will be used instead.
-date: 2019-01-01T00:00:00.000Z
+emoji: "\U0001F63A"
+metaDescription: This is a sample meta description. If one is not present in your
+  page/project's front matter, the default metadata.desciption will be used instead.
+date: 2019-01-01T00:00:00.000+00:00
 summary: API to translate cat speech to english
 tags:
-  - golang
-  - graphQL
-  - aws
----
+- golang
+- graphQL
+- aws
+back_to: "← To all projects"
 
+---
 ### Task
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
