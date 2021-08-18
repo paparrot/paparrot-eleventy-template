@@ -33,14 +33,16 @@ Simple personal site built with [Eleventy](https://11ty.dev) and hosted on [Verc
 Now, connect with you Github (or Gitlab, Bitbucket) account, check "Create private repository" and type your new repository name. All your files will be there.
 
 ![image](https://user-images.githubusercontent.com/59335849/129957223-66944a52-fccb-4715-a9e5-03fc4ba47141.png)
+
 You can skip this block.
 
 ![image](https://user-images.githubusercontent.com/59335849/129957360-70c4a159-555d-4662-87a2-3f538980ba72.png)
+
 Wait while your repository will be deployed on Vercel.
 
 ### 2. Connect with Forestry
 
-Now, go to [Forestry CSM](https://forestry.io) and sing up with your git-provider (Github, Gitlab, Bitbucket), log in, and click to "Add Site" button.
+Now, go to [Forestry CMS](https://forestry.io) and sing up with your git-provider (Github, Gitlab, Bitbucket), log in, and click to "Add Site" button.
 ![image](https://user-images.githubusercontent.com/59335849/129957915-55482051-f3e6-464b-afa2-524ce35f793f.png)
 Select the 11ty (our site was build with this static generator), select your git provider.
 ![image](https://user-images.githubusercontent.com/59335849/129958155-db33de40-4728-4243-871e-a2cc7fdf2ce1.png)
