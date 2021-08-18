@@ -8,7 +8,7 @@ title: Hello world
 summary: First one post in blog
 date: 2021-08-16T21:00:00.000+00:00
 comments_title: Comments
-back_to: To all posts
+back_to: "← To all posts"
 
 ---
 ## Title
