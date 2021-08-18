@@ -5,8 +5,8 @@ name="contact"
 action="https://submit-form.com/{{ services.formSpark.key | safe }}"
 method="post"
 >
-  <input type="hidden" name="_redirect" value="//{{ metadata.url }}/thankyou/">
-  <input type="hidden" name="_error" value="//{{ metadata.url }}/error/">
+  <input type="hidden" name="_redirect" value="{{ metadata.url }}/thankyou/">
+  <input type="hidden" name="_error" value="{{ metadata.url }}/error/">
   <label for="name">{{ form.name_label }}</label>
   <input id="name" name="name" type="text" autocomplete="name" placeholder="{{ form.name_placeholder | safe }}" title="{{ form.name__title | safe }}" required>
   <label for="email" >{{ form.email_label | safe }}</label>
