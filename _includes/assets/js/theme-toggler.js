@@ -6,9 +6,9 @@ const isLocalDark = localStorage.getItem('theme') === 'dark';
 let isDark = isLocalEmpty ? isSystemDark : isLocalDark;
 if (isDark) document.documentElement.classList.add('dark');
 
-toggler.addEventListener('click', () => {
+const toggleTheme = () => {
   isDark = !isDark;
   isDark ? localStorage.setItem("theme","dark") : localStorage.setItem("theme","light");
-});
+}
 
-const toggleTheme
+toggler.addEventListener('click', toggleTheme);
