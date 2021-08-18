@@ -1,4 +1,5 @@
 ![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=paparrot)
+[![paparrot-github-action](https://github.com/paparrot/paparrot-eleventy-template/actions/workflows/main.yml/badge.svg)](https://github.com/paparrot/paparrot-eleventy-template/actions/workflows/main.yml)
 
 # Fernfolio
 
