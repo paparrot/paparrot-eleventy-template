@@ -5,6 +5,10 @@ admin_path: "/papa"
 webhook_url: 
 sections:
 - type: document
+  path: _data/socials.json
+  label: Socials
+  match: "**/*"
+- type: document
   path: _data/styles.json
   label: Styles
   match: "**/*"
