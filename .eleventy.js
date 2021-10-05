@@ -46,7 +46,7 @@ module.exports = function (eleventyConfig) {
   // Date formatting (machine readable)
   eleventyConfig.addFilter('machineDate', (dateObj) => {
     return new Date(dateObj)
-      .toLocaleDateString('ru', {
+      .toLocaleDateString('ru-RU', {
         day: 'numeric',
         month: 'long',
         year: 'numeric',
